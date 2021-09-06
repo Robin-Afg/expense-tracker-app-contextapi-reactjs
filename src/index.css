@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.5s ease-out;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+
+.body {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+  
+.container {
+    margin-top: 0%;
+    /* margin-left: -50%;*/
+    width: 100%;
+    
+    
+} 
+
+#balance {
+    margin-top:-8%;
+    /* margin-left: -2%; */
+}
+
+.inc-exp {
+    margin-top: 10%;
+    /* width: 100%; */
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 6px 12px rgba(223, 208, 208, 0.3);
+    text-align:center;
+}
+
+.money {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top:-25%;
+}
+#money-plus{
+    color:rgb(25, 211, 25);
+}
+#money-minus{
+    color:red;
+}
+
+
+.border-transaction{
+    margin-top:-5%;
+    margin-bottom:0;
+    border-top: 0.6px solid rgba(128, 128, 128, 0.527);
+}
+ul.list {
+    margin-top:5%;
+    list-style: none;
+    width: 100%;
+    padding:0;
+    
+}
+ul.list li {
+    display: flex;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 0;
+    margin-bottom: 2px;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 6px 12px rgba(223, 208, 208, 0.3);
+    transition: 0.5s ease;
+}
+
+
+ul.list li:hover .delete-btn, .delete-btn:hover {
+    display: block;
+    background-color:indianred;
+    border:none;
+    
+    outline:none;
+    color:#fff;
+    width: 100%; 
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+ul.list li:hover #text {
+    display: none;
+    transition: 0.5s ease;
+}
+ul.list li:hover #amount {
+    display: none;
+    transition: 0.5s ease;
+}
+
+.delete-btn {
+    display: none;
+    
+    
+}
+
+
+
+.form{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.f-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-containers label{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.btn {
+    margin-top: 4%;
+    width: 100%;
+    background-color: purple;
+    color: #fff;
+    padding:3%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.f-containers input {
+    border:none;
+    outline: none;
+    padding: 3%;
+    text-align:center;
+}
+
+li.minus {
+    border-right:3px solid red;
+    
+}
+li.plus {
+    border-right:3px solid rgb(29, 194, 29);
+}
+
+#text, #amount {
+    margin-left: 2%;
+    margin-right: 2%;
+}
